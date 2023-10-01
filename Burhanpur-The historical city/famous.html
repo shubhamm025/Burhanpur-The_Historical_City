@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>famous food</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        h1{
+            font-size: 48px;
+            text-align: center;
+            margin-top: 100px;
+            /* background-image: linear-gradient( 135deg, #2AFADF     10%, #C346C2 100%); */
+        }
+        #gallery-grid {
+    display: grid;
+    margin: 20px 0;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.gallery-img {
+    
+    height: 250px;
+    /* filter: grayscale(.5); */
+    transition: all 200ms;
+}
+
+.gallery-img:hover {
+    filter: grayscale(0);
+}
+section{
+    padding-top: 70px;
+}
+.heading{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-size: 48px;
+}
+body{
+    background-image: linear-gradient( 135deg, #2AFADF     10%, #C346C2 100%);
+}
+    </style>
+</head>
+<body>
+     <div id="jalebi">
+        <h1>Burhanpur's Famous Jalebi</h1>
+        <br>
+        <section id="gallery">
+            <h2 class="heading">Mawa Jalebi</h2>
+            <br><br>
+            <img src="IMG_4048.jpeg" alt="1" class="gallery-img"  width="600px"/>
+            <img src="jalebi2.jfif" alt="1" class="gallery-img" margin-left="200px"  width="600px"/>
+            <div id="gallery-grid">
+              <img src="mawa jalebi.jpg" alt="1" class="gallery-img" />
+              <img src="mawajalebi.jpg" alt="1" class="gallery-img" />
+              <img src="mawajalebi1.jpg" alt="1" class="gallery-img" />
+              <img src="jlb.jfif" alt="1" class="gallery-img"  />
+            </div>
+          </section>
+     </div>
+</body>
+</html>
